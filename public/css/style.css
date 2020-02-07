@@ -1,0 +1,79 @@
+body{
+    background-image: url(/img/patrick-tomasso-QMDap1TAu0g-unsplash.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+}
+a, a:link, a.active, a:visited{
+    text-decoration: none;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+}
+ul{
+    list-style: none;
+}
+.barraMenu{
+    text-align: center;
+}
+.menu{
+    display: inline-block;
+    padding: 1%;
+}
+.foto{
+    display: block;
+    margin: auto;
+    width: auto;
+    height: 70vh;
+    z-index: -1;
+}
+h1{
+    /* position: absolute;
+    top: 10%; 
+    right: 60%;
+    transform: translate(90%,-30%); */
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: black 5px 5px 5px;
+    color:rgba(255, 255, 255, 0.726);
+}
+h2{
+    position: absolute;
+    top: 90%; 
+    right: 56%;
+    transform: translate(90%,-20%);
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: black 5px 5px 5px;
+    color:rgba(255, 255, 255, 0.726);
+}
+p{
+    text-align: justify;
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(43, 42, 42);
+}
+h3{
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    text-align: center;
+}
+li{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: justify;
+}
+.textos{
+    background-image: url(/img/thomas-heintz-0tgMnMIYQ9Y-unsplash.jpg);
+    background-size: 100%;
+    width: 65%;
+    padding: 1%;
+    display: block;
+    margin: auto;
+}
